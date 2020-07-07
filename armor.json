@@ -1,0 +1,351 @@
+[{
+        "id": "utopian_rig",
+        "type": "ARMOR",
+        "name": {
+            "str": "utopian rig"
+        },
+        "description": "A special storage rig in the Utopian colors. Designed for maximum storage, it features a chestrig, several pouches on both arms and legs",
+        "weight": "810 g",
+        "volume": "1500 ml",
+        "price": 8900,
+        "price_postapoc": 50,
+        "to_hit": -3,
+        "material": ["cotton", "plastic"],
+        "symbol": "[",
+        "looks_like": "chestrig",
+        "color": "red",
+        "covers": ["LEGS", "ARMS", "TORSO"],
+        "coverage": 70,
+        "encumbrance": 1,
+        "max_encumbrance": 1,
+        "pocket_data": [
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "1500 ml",
+                "max_contains_weight": "20 kg",
+                "moves": 80
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "1500 ml",
+                "max_contains_weight": "20 kg",
+                "moves": 80
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "1500 ml",
+                "max_contains_weight": "20 kg",
+                "moves": 80
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "1500 ml",
+                "max_contains_weight": "20 kg",
+                "moves": 80
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "1500 ml",
+                "max_contains_weight": "20 kg",
+                "moves": 80
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "1500 ml",
+                "max_contains_weight": "20 kg",
+                "moves": 80
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "750 ml",
+                "max_contains_weight": "10 kg",
+                "moves": 100
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "750 ml",
+                "max_contains_weight": "10 kg",
+                "moves": 100
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "750 ml",
+                "max_contains_weight": "10 kg",
+                "moves": 100
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "750 ml",
+                "max_contains_weight": "10 kg",
+                "moves": 100
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "750 ml",
+                "max_contains_weight": "10 kg",
+                "moves": 100
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "750 ml",
+                "max_contains_weight": "10 kg",
+                "moves": 100
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "500 ml",
+                "max_contains_weight": "10 kg",
+                "moves": 100
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "500 ml",
+                "max_contains_weight": "10 kg",
+                "moves": 100
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "500 ml",
+                "max_contains_weight": "10 kg",
+                "moves": 100
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "500 ml",
+                "max_contains_weight": "10 kg",
+                "moves": 100
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "holster": true,
+                "min_item_volume": "1250 ml",
+                "max_contains_volume": "8 L",
+                "max_contains_weight": "8200 g",
+                "max_item_length": "120 cm",
+                "moves": 50
+              }
+        ],
+        "warmth": 5,
+        "material_thickness": 2,
+        "use_action": { "type": "holster" },
+        "flags": ["VARSIZE", "STURDY"]
+    },
+    {
+        "result": "utopian_rig",
+        "type": "recipe",
+        "category": "CC_ARMOR",
+        "subcategory": "CSC_ARMOR_STORAGE",
+        "skill_used": "tailor",
+        "difficulty": 3,
+        "time": "1 h",
+        "autolearn": true,
+        "qualities": [{
+            "id": "CUT",
+            "level": 1
+        }],
+        "using": [
+            ["sewing_standard", 68]
+        ],
+        "components": [
+            [
+                ["rag", 21]
+            ]
+        ]
+    },
+    {
+        "id": "utopian_jumpsuit",
+        "type": "ARMOR",
+        "name": {
+            "str": "utopian jumpsuit"
+        },
+        "description": "A special jumpsuit in the Utopian colors. Designed as the standard wear for the faction it completely covers the whole body. For seeing there is a mesh screen while the cloth at the mouth can be spread apart for ingesting food. It also features a few pockets.",
+        "weight": "610 g",
+        "volume": "3500 ml",
+        "price": 8900,
+        "price_postapoc": 50,
+        "to_hit": -3,
+        "material": ["cotton"],
+        "symbol": "[",
+        "looks_like": "touring_suit",
+        "color": "red",
+        "covers": ["LEGS", "ARMS", "TORSO", "FEET", "HANDS", "HEAD", "MOUTH"],
+        "coverage": 100,
+        "encumbrance": 1,
+        "max_encumbrance": 1,
+        "pocket_data": [{
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "1 L",
+                "max_contains_weight": "20 kg",
+                "moves": 80
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "1 L",
+                "max_contains_weight": "20 kg",
+                "moves": 80
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "500 ml",
+                "max_contains_weight": "10 kg",
+                "moves": 100
+            },
+            {
+                "pocket_type": "CONTAINER",
+                "max_contains_volume": "500 ml",
+                "max_contains_weight": "10 kg",
+                "moves": 100
+            }
+        ],
+        "warmth": 30,
+        "material_thickness": 2,
+        "flags": ["VARSIZE", "POCKETS", "SKINTIGHT"]
+    },
+    {
+        "result": "utopian_jumpsuit",
+        "type": "recipe",
+        "category": "CC_ARMOR",
+        "subcategory": "CSC_ARMOR_SUIT",
+        "skill_used": "tailor",
+        "difficulty": 3,
+        "time": "1 h",
+        "autolearn": true,
+        "qualities": [{
+            "id": "CUT",
+            "level": 1
+        }],
+        "using": [
+            ["sewing_standard", 68]
+        ],
+        "components": [
+            [
+                ["rag", 21]
+            ]
+        ]
+    },
+    {
+        "id": "armor_utopia_l",
+        "type": "ARMOR",
+        "category": "armor",
+        "name": {
+            "str": "utopian light armor"
+        },
+        "description": "A white suit of Utopian light armor. It protects only the most important bits of the body. It is very lightweight and made out of easy to source materials.",
+        "weight": "2500 g",
+        "volume": "5500 ml",
+        "price": 4000,
+        "price_postapoc": 4000,
+        "bashing": 8,
+        "material": ["plastic", "wood", "cotton"],
+        "symbol": "[",
+        "looks_like": "armor_lightplate",
+        "color": "white",
+        "covers": ["LEGS", "ARMS", "TORSO", "FEET", "HANDS", "HEAD", "MOUTH"],
+        "coverage": 75,
+        "encumbrance": 3,
+        "warmth": 10,
+        "material_thickness": 3,
+        "flags": ["VARSIZE", "STURDY", "OUTER"]
+    },
+    {
+        "result": "armor_utopia_l",
+        "type": "recipe",
+        "category": "CC_ARMOR",
+        "subcategory": "CSC_ARMOR_SUIT",
+        "skill_used": "tailor",
+        "difficulty": 3,
+        "time": "4 h",
+        "autolearn": true,
+        "using": [
+            ["sewing_standard", 68]
+        ],
+        "qualities": [{
+            "id": "CUT",
+            "level": 1
+        }],
+        "tools": [
+            [
+                ["surface_heat", 5, "LIST"]
+            ],
+            [
+                ["mold_plastic", -1]
+            ]
+        ],
+
+        "components": [
+            [
+                ["cordage", 6, "LIST"]
+            ],
+            [
+                ["rag", 42]
+            ],
+            [
+                ["2x4", 8]
+            ],
+            [
+                ["plastic_chunk", 24]
+            ]
+        ]
+    },
+    {
+        "id": "armor_utopia",
+        "type": "ARMOR",
+        "category": "armor",
+        "name": {
+            "str": "utopian armor"
+        },
+        "description": "A white suit of Utopian armor. It protects most of the body. It feature the Utopian logo on its chest.\nIt is lightweight for its class and made out of easy to source materials.",
+        "weight": "5500 g",
+        "volume": "7500 ml",
+        "price": 8000,
+        "price_postapoc": 8000,
+        "bashing": 8,
+        "material": ["iron", "wood"],
+        "symbol": "[",
+        "looks_like": "armor_lightplate",
+        "color": "white",
+        "covers": ["LEGS", "ARMS", "TORSO", "FEET", "HANDS", "HEAD", "MOUTH", "EYES"],
+        "coverage": 95,
+        "encumbrance": 6,
+        "warmth": 15,
+        "material_thickness": 3,
+        "flags": ["VARSIZE", "STURDY", "OUTER"]
+    },
+    {
+        "result": "armor_utopia",
+        "type": "recipe",
+        "category": "CC_ARMOR",
+        "subcategory": "CSC_ARMOR_SUIT",
+        "skill_used": "tailor",
+        "difficulty": 3,
+        "time": "4 h",
+        "autolearn": true,
+        "using": [
+            ["sewing_standard", 68]
+        ],
+        "qualities": [{
+            "id": "CUT",
+            "level": 1
+        }],
+        "tools": [
+            [
+                ["surface_heat", 5, "LIST"]
+            ]
+        ],
+
+        "components": [
+            [
+                ["cordage", 6, "LIST"]
+            ],
+            [
+                ["rag", 24]
+            ],
+            [
+                ["2x4", 8]
+            ],
+            [
+                ["scrap", 24], [ "steel_chunk", 6 ]
+            ]
+        ]
+    }
+]

@@ -1,0 +1,87 @@
+[{
+        "id": "cass_fast_crossbow",
+        "looks_like": "crossbow",
+        "type": "GUN",
+        "reload_noise_volume": 10,
+        "symbol": "(",
+        "color": "green",
+        "name": {
+            "str": "mechanical crossbow"
+        },
+        "description": "A custom-made crossbow. It features a mechanism for faster draw and automatically loading bolts, a pulley system for higher muzle velocities and it has a wooden magazine that holds 5 bolts.  Bolts fired from this weapon have a good chance of remaining intact for re-use.",
+        "price": 324000,
+        "material": ["steel", "wood"],
+        "flags": ["FIRE_TWOHAND", "PRIMITIVE_RANGED_WEAPON"],
+        "skill": "rifle",
+        "ammo": ["bolt"],
+        "weight": "2628 g",
+        "volume": "1250 ml",
+        "price_postapoc": 6000,
+        "bashing": 13,
+        "to_hit": -1,
+        "ranged_damage": {
+            "damage_type": "stab",
+            "amount": 15
+        },
+        "range": 8,
+        "dispersion": 450,
+        "recoil": 20,
+        "durability": 6,
+        "clip_size": 5,
+        "reload": 850,
+        "valid_mod_locations": [
+            ["dampening", 1],
+            ["grip", 1],
+            ["rail", 1],
+            ["sights", 1],
+            ["accessories", 4],
+            ["sights mount", 1],
+            ["underbarrel mount", 1],
+            ["underbarrel", 1],
+            ["stock", 1]
+        ],
+        "pocket_data": [{
+            "pocket_type": "MAGAZINE",
+            "ammo_restriction": {
+                "bolt": 5
+            }
+        }]
+    },
+    {
+        "type": "recipe",
+        "result": "cass_fast_crossbow",
+        "category": "CC_WEAPON",
+        "subcategory": "CSC_WEAPON_RANGED",
+        "skill_used": "fabrication",
+        "difficulty": 3,
+        "time": "45 m",
+        "reversible": true,
+        "decomp_learn": 4,
+        "autolearn": true,
+        "qualities": [{
+            "id": "CUT",
+            "level": 1
+        }, {
+            "id": "SCREW",
+            "level": 1
+        }, {
+            "id": "HAMMER",
+            "level": 1
+        }],
+        "components": [
+            [
+                ["2x4", 4],
+                ["stick", 8]
+            ],
+            [
+                ["spring", 2]
+            ],
+            [
+                ["cordage_superior", 2, "LIST"]
+            ],
+            [
+                ["nail", 20]
+            ]
+        ]
+    }
+]

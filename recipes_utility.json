@@ -1,0 +1,19 @@
+[{
+    "result": "rock",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": "30 s",
+    "autolearn": true,
+    "qualities": [{
+        "id": "HAMMER",
+        "level": 1
+    }],
+    "components": [
+        [
+            ["sharp_rock", 1]
+        ]
+    ]
+}]
