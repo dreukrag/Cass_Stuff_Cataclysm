@@ -23,7 +23,7 @@
             "damage_type": "stab",
             "amount": 15
         },
-        "range": 8,
+        "range": 24,
         "dispersion": 450,
         "recoil": 20,
         "durability": 6,
