@@ -5,7 +5,7 @@
         "authors": ["Cassidy"],
         "maintainers": ["Cassidy"],
         "description": "Various tweaks and new content by Cassidy.",
-        "category": "rebalance",
+        "category": "content",
         "dependencies": ["dda"]
     },
     {
