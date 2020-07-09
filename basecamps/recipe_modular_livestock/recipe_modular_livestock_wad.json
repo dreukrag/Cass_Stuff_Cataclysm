@@ -64,83 +64,83 @@
                     [
                         [
                             "2x4",
-                            318
+                            79
                         ]
                     ],
                     [
                         [
                             "nail",
-                            360
+                            90
                         ]
                     ],
                     [
                         [
                             "wire",
-                            20
+                            5
                         ]
                     ],
                     [
                         [
                             "hinge",
-                            2
+                            1
                         ]
                     ],
                     [
                         [
                             "material_quicklime",
-                            144
+                            36
                         ],
                         [
                             "material_limestone",
-                            144
+                            36
                         ],
                         [
                             "clay_lump",
-                            144
+                            36
                         ]
                     ],
                     [
                         [
                             "pebble",
-                            360
+                            90
                         ],
                         [
                             "material_sand",
-                            360
+                            90
                         ]
                     ],
                     [
                         [
                             "straw_pile",
-                            144
+                            36
                         ],
                         [
                             "cattail_stalk",
-                            144
+                            36
                         ],
                         [
                             "dogbane",
-                            144
+                            36
                         ],
                         [
                             "pine_bough",
-                            144
+                            36
                         ]
                     ],
                     [
                         [
                             "water",
-                            180
+                            45
                         ],
                         [
                             "water_clean",
-                            180
+                            45
                         ]
                     ],
                     [
                         [
                             "wood_panel",
-                            16
+                            4
                         ]
                     ]
                 ]
@@ -209,81 +209,81 @@
                     [
                         [
                             "2x4",
-                            246
+                            61
                         ]
                     ],
                     [
                         [
                             "cattail_stalk",
-                            104
+                            26
                         ],
                         [
                             "dogbane",
-                            104
+                            26
                         ],
                         [
                             "pine_bough",
-                            104
+                            26
                         ],
                         [
                             "straw_pile",
-                            104
+                            26
                         ]
                     ],
                     [
                         [
                             "clay_lump",
-                            104
+                            26
                         ],
                         [
                             "material_limestone",
-                            104
+                            26
                         ],
                         [
                             "material_quicklime",
-                            104
+                            26
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            260
+                            65
                         ],
                         [
                             "pebble",
-                            260
+                            65
                         ]
                     ],
                     [
                         [
                             "nail",
-                            392
+                            98
                         ]
                     ],
                     [
                         [
                             "rope_6",
-                            2
+                            1
                         ],
                         [
                             "rope_makeshift_6",
-                            2
+                            1
                         ]
                     ],
                     [
                         [
                             "water",
-                            130
+                            32
                         ],
                         [
                             "water_clean",
-                            130
+                            32
                         ]
                     ],
                     [
                         [
                             "wood_panel",
-                            29
+                            7
                         ]
                     ]
                 ]
@@ -361,87 +361,87 @@
                     [
                         [
                             "2x4",
-                            311
+                            77
                         ]
                     ],
                     [
                         [
                             "nail",
-                            432
+                            108
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            8
+                            2
                         ],
                         [
                             "spear_wood",
-                            8
-                        ]
-                    ],
-                    [
-                        [
-                            "hinge",
                             2
                         ]
                     ],
                     [
                         [
+                            "hinge",
+                            1
+                        ]
+                    ],
+                    [
+                        [
                             "material_quicklime",
-                            120
+                            30
                         ],
                         [
                             "material_limestone",
-                            120
+                            30
                         ],
                         [
                             "clay_lump",
-                            120
+                            30
                         ]
                     ],
                     [
                         [
                             "pebble",
-                            300
+                            75
                         ],
                         [
                             "material_sand",
-                            300
+                            75
                         ]
                     ],
                     [
                         [
                             "straw_pile",
-                            120
+                            30
                         ],
                         [
                             "cattail_stalk",
-                            120
+                            30
                         ],
                         [
                             "dogbane",
-                            120
+                            30
                         ],
                         [
                             "pine_bough",
-                            120
+                            30
                         ]
                     ],
                     [
                         [
                             "water",
-                            150
+                            37
                         ],
                         [
                             "water_clean",
-                            150
+                            37
                         ]
                     ],
                     [
                         [
                             "wood_panel",
-                            17
+                            4
                         ]
                     ]
                 ]
@@ -516,87 +516,87 @@
                     [
                         [
                             "2x4",
-                            308
+                            77
                         ]
                     ],
                     [
                         [
                             "nail",
-                            464
+                            116
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            8
+                            2
                         ],
                         [
                             "spear_wood",
-                            8
+                            2
                         ]
                     ],
                     [
                         [
                             "hinge",
-                            4
+                            1
                         ]
                     ],
                     [
                         [
                             "material_quicklime",
-                            104
+                            26
                         ],
                         [
                             "material_limestone",
-                            104
+                            26
                         ],
                         [
                             "clay_lump",
-                            104
+                            26
                         ]
                     ],
                     [
                         [
                             "pebble",
-                            260
+                            65
                         ],
                         [
                             "material_sand",
-                            260
+                            65
                         ]
                     ],
                     [
                         [
                             "straw_pile",
-                            104
+                            26
                         ],
                         [
                             "cattail_stalk",
-                            104
+                            26
                         ],
                         [
                             "dogbane",
-                            104
+                            26
                         ],
                         [
                             "pine_bough",
-                            104
+                            26
                         ]
                     ],
                     [
                         [
                             "water",
-                            130
+                            32
                         ],
                         [
                             "water_clean",
-                            130
+                            32
                         ]
                     ],
                     [
                         [
                             "wood_panel",
-                            19
+                            4
                         ]
                     ]
                 ]
@@ -671,87 +671,87 @@
                     [
                         [
                             "2x4",
-                            310
+                            77
                         ]
                     ],
                     [
                         [
                             "nail",
-                            444
+                            111
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            8
+                            2
                         ],
                         [
                             "spear_wood",
-                            8
+                            2
                         ]
                     ],
                     [
                         [
                             "hinge",
-                            4
+                            1
                         ]
                     ],
                     [
                         [
                             "material_quicklime",
-                            112
+                            28
                         ],
                         [
                             "material_limestone",
-                            112
+                            28
                         ],
                         [
                             "clay_lump",
-                            112
+                            28
                         ]
                     ],
                     [
                         [
                             "pebble",
-                            280
+                            70
                         ],
                         [
                             "material_sand",
-                            280
+                            70
                         ]
                     ],
                     [
                         [
                             "straw_pile",
-                            112
+                            28
                         ],
                         [
                             "cattail_stalk",
-                            112
+                            28
                         ],
                         [
                             "dogbane",
-                            112
+                            28
                         ],
                         [
                             "pine_bough",
-                            112
+                            28
                         ]
                     ],
                     [
                         [
                             "water",
-                            140
+                            35
                         ],
                         [
                             "water_clean",
-                            140
+                            35
                         ]
                     ],
                     [
                         [
                             "wood_panel",
-                            18
+                            4
                         ]
                     ]
                 ]

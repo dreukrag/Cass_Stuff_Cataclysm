@@ -69,67 +69,67 @@
                     [
                         [
                             "pointy_stick",
-                            8
+                            2
                         ],
                         [
                             "spear_wood",
-                            8
+                            2
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            1120
+                            280
                         ]
                     ],
                     [
                         [
                             "water",
-                            400
+                            100
                         ],
                         [
                             "water_clean",
-                            400
+                            100
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            80
+                            20
                         ],
                         [
                             "material_quicklime",
-                            80
+                            20
                         ],
                         [
                             "concrete",
-                            4
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            8
+                            2
                         ]
                     ],
                     [
                         [
                             "stick",
-                            16
+                            4
                         ],
                         [
                             "2x4",
-                            32
+                            8
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            48
+                            12
                         ],
                         [
                             "pine_bough",
-                            48
+                            12
                         ]
                     ]
                 ]
@@ -210,73 +210,73 @@
                     [
                         [
                             "log",
-                            12
+                            3
                         ]
                     ],
                     [
                         [
                             "2x4",
-                            40
+                            10
                         ],
                         [
                             "stick",
-                            20
+                            5
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            60
+                            15
                         ],
                         [
                             "pine_bough",
-                            60
+                            15
                         ]
                     ],
                     [
                         [
                             "concrete",
-                            3
+                            1
                         ],
                         [
                             "material_quicklime",
-                            60
+                            15
                         ],
                         [
                             "material_sand",
-                            60
+                            15
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            920
+                            230
                         ]
                     ],
                     [
                         [
                             "nail",
-                            30
+                            7
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            6
+                            1
                         ],
                         [
                             "spear_wood",
-                            6
+                            1
                         ]
                     ],
                     [
                         [
                             "water",
-                            300
+                            75
                         ],
                         [
                             "water_clean",
-                            300
+                            75
                         ]
                     ]
                 ]
@@ -365,63 +365,63 @@
                     [
                         [
                             "2x4",
-                            18
+                            4
                         ]
                     ],
                     [
                         [
                             "nail",
-                            24
+                            6
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            14
+                            3
                         ],
                         [
                             "spear_wood",
-                            14
+                            3
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            1680
+                            420
                         ]
                     ],
                     [
                         [
                             "water",
-                            700
+                            175
                         ],
                         [
                             "water_clean",
-                            700
+                            175
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            140
+                            35
                         ],
                         [
                             "material_quicklime",
-                            140
+                            35
                         ],
                         [
                             "concrete",
-                            7
+                            1
                         ]
                     ],
                     [
                         [
                             "rope_makeshift_6",
-                            2
+                            1
                         ],
                         [
                             "rope_6",
-                            2
+                            1
                         ]
                     ]
                 ]
@@ -510,79 +510,79 @@
                     [
                         [
                             "2x4",
-                            179
+                            44
                         ]
                     ],
                     [
                         [
                             "nail",
-                            78
+                            19
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            34
+                            8
                         ],
                         [
                             "spear_wood",
-                            34
+                            8
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            4720
+                            1180
                         ]
                     ],
                     [
                         [
                             "water",
-                            1700
+                            425
                         ],
                         [
                             "water_clean",
-                            1700
+                            425
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            340
+                            85
                         ],
                         [
                             "material_quicklime",
-                            340
+                            85
                         ],
                         [
                             "concrete",
-                            17
+                            4
                         ]
                     ],
                     [
                         [
                             "rope_makeshift_6",
-                            4
+                            1
                         ],
                         [
                             "rope_6",
-                            4
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            32
+                            8
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            192
+                            48
                         ],
                         [
                             "pine_bough",
-                            192
+                            48
                         ]
                     ]
                 ]
@@ -676,79 +676,79 @@
                     [
                         [
                             "2x4",
-                            211
+                            52
                         ]
                     ],
                     [
                         [
                             "nail",
-                            78
+                            19
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            28
+                            7
                         ],
                         [
                             "spear_wood",
-                            28
+                            7
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            4160
+                            1040
                         ]
                     ],
                     [
                         [
                             "water",
-                            1400
+                            350
                         ],
                         [
                             "water_clean",
-                            1400
+                            350
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            280
+                            70
                         ],
                         [
                             "material_quicklime",
-                            280
+                            70
                         ],
                         [
                             "concrete",
-                            14
+                            3
                         ]
                     ],
                     [
                         [
                             "rope_makeshift_6",
-                            4
+                            1
                         ],
                         [
                             "rope_6",
-                            4
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            40
+                            10
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            240
+                            60
                         ],
                         [
                             "pine_bough",
-                            240
+                            60
                         ]
                     ]
                 ]
@@ -831,79 +831,79 @@
                     [
                         [
                             "2x4",
-                            179
+                            44
                         ]
                     ],
                     [
                         [
                             "nail",
-                            78
+                            19
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            34
+                            8
                         ],
                         [
                             "spear_wood",
-                            34
+                            8
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            4720
+                            1180
                         ]
                     ],
                     [
                         [
                             "water",
-                            1700
+                            425
                         ],
                         [
                             "water_clean",
-                            1700
+                            425
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            340
+                            85
                         ],
                         [
                             "material_quicklime",
-                            340
+                            85
                         ],
                         [
                             "concrete",
-                            17
+                            4
                         ]
                     ],
                     [
                         [
                             "rope_makeshift_6",
-                            4
+                            1
                         ],
                         [
                             "rope_6",
-                            4
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            32
+                            8
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            192
+                            48
                         ],
                         [
                             "pine_bough",
-                            192
+                            48
                         ]
                     ]
                 ]
@@ -1000,79 +1000,79 @@
                     [
                         [
                             "2x4",
-                            211
+                            52
                         ]
                     ],
                     [
                         [
                             "nail",
-                            78
+                            19
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            26
+                            6
                         ],
                         [
                             "spear_wood",
-                            26
+                            6
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            3920
+                            980
                         ]
                     ],
                     [
                         [
                             "water",
-                            1300
+                            325
                         ],
                         [
                             "water_clean",
-                            1300
+                            325
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            260
+                            65
                         ],
                         [
                             "material_quicklime",
-                            260
+                            65
                         ],
                         [
                             "concrete",
-                            13
+                            3
                         ]
                     ],
                     [
                         [
                             "rope_makeshift_6",
-                            4
+                            1
                         ],
                         [
                             "rope_6",
-                            4
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            40
+                            10
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            240
+                            60
                         ],
                         [
                             "pine_bough",
-                            240
+                            60
                         ]
                     ]
                 ]
@@ -1162,79 +1162,79 @@
                     [
                         [
                             "2x4",
-                            105
+                            26
                         ]
                     ],
                     [
                         [
                             "nail",
-                            54
+                            13
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            28
+                            7
                         ],
                         [
                             "spear_wood",
-                            28
+                            7
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            3720
+                            930
                         ]
                     ],
                     [
                         [
                             "water",
-                            1400
+                            350
                         ],
                         [
                             "water_clean",
-                            1400
+                            350
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            280
+                            70
                         ],
                         [
                             "material_quicklime",
-                            280
+                            70
                         ],
                         [
                             "concrete",
-                            14
+                            3
                         ]
                     ],
                     [
                         [
                             "rope_makeshift_6",
-                            2
+                            1
                         ],
                         [
                             "rope_6",
-                            2
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            18
+                            4
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            108
+                            27
                         ],
                         [
                             "pine_bough",
-                            108
+                            27
                         ]
                     ]
                 ]
@@ -1317,79 +1317,79 @@
                     [
                         [
                             "2x4",
-                            179
+                            44
                         ]
                     ],
                     [
                         [
                             "nail",
-                            78
+                            19
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            34
+                            8
                         ],
                         [
                             "spear_wood",
-                            34
+                            8
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            4720
+                            1180
                         ]
                     ],
                     [
                         [
                             "water",
-                            1700
+                            425
                         ],
                         [
                             "water_clean",
-                            1700
+                            425
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            340
+                            85
                         ],
                         [
                             "material_quicklime",
-                            340
+                            85
                         ],
                         [
                             "concrete",
-                            17
+                            4
                         ]
                     ],
                     [
                         [
                             "rope_makeshift_6",
-                            4
+                            1
                         ],
                         [
                             "rope_6",
-                            4
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            32
+                            8
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            192
+                            48
                         ],
                         [
                             "pine_bough",
-                            192
+                            48
                         ]
                     ]
                 ]
@@ -1476,79 +1476,79 @@
                     [
                         [
                             "2x4",
-                            211
+                            52
                         ]
                     ],
                     [
                         [
                             "nail",
-                            78
+                            19
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            28
+                            7
                         ],
                         [
                             "spear_wood",
-                            28
+                            7
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            4160
+                            1040
                         ]
                     ],
                     [
                         [
                             "water",
-                            1400
+                            350
                         ],
                         [
                             "water_clean",
-                            1400
+                            350
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            280
+                            70
                         ],
                         [
                             "material_quicklime",
-                            280
+                            70
                         ],
                         [
                             "concrete",
-                            14
+                            3
                         ]
                     ],
                     [
                         [
                             "rope_makeshift_6",
-                            4
+                            1
                         ],
                         [
                             "rope_6",
-                            4
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            40
+                            10
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            240
+                            60
                         ],
                         [
                             "pine_bough",
-                            240
+                            60
                         ]
                     ]
                 ]
@@ -1631,79 +1631,79 @@
                     [
                         [
                             "2x4",
-                            179
+                            44
                         ]
                     ],
                     [
                         [
                             "nail",
-                            78
+                            19
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            34
+                            8
                         ],
                         [
                             "spear_wood",
-                            34
+                            8
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            4720
+                            1180
                         ]
                     ],
                     [
                         [
                             "water",
-                            1700
+                            425
                         ],
                         [
                             "water_clean",
-                            1700
+                            425
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            340
+                            85
                         ],
                         [
                             "material_quicklime",
-                            340
+                            85
                         ],
                         [
                             "concrete",
-                            17
+                            4
                         ]
                     ],
                     [
                         [
                             "rope_makeshift_6",
-                            4
+                            1
                         ],
                         [
                             "rope_6",
-                            4
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            32
+                            8
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            192
+                            48
                         ],
                         [
                             "pine_bough",
-                            192
+                            48
                         ]
                     ]
                 ]
@@ -1790,79 +1790,79 @@
                     [
                         [
                             "2x4",
-                            211
+                            52
                         ]
                     ],
                     [
                         [
                             "nail",
-                            78
+                            19
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            26
+                            6
                         ],
                         [
                             "spear_wood",
-                            26
+                            6
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            3920
+                            980
                         ]
                     ],
                     [
                         [
                             "water",
-                            1300
+                            325
                         ],
                         [
                             "water_clean",
-                            1300
+                            325
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            260
+                            65
                         ],
                         [
                             "material_quicklime",
-                            260
+                            65
                         ],
                         [
                             "concrete",
-                            13
+                            3
                         ]
                     ],
                     [
                         [
                             "rope_makeshift_6",
-                            4
+                            1
                         ],
                         [
                             "rope_6",
-                            4
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            40
+                            10
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            240
+                            60
                         ],
                         [
                             "pine_bough",
-                            240
+                            60
                         ]
                     ]
                 ]
@@ -1948,79 +1948,79 @@
                     [
                         [
                             "2x4",
-                            98
-                        ]
-                    ],
-                    [
-                        [
-                            "nail",
                             24
                         ]
                     ],
                     [
                         [
+                            "nail",
+                            6
+                        ]
+                    ],
+                    [
+                        [
                             "pointy_stick",
-                            14
+                            3
                         ],
                         [
                             "spear_wood",
-                            14
+                            3
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            2080
+                            520
                         ]
                     ],
                     [
                         [
                             "water",
-                            700
+                            175
                         ],
                         [
                             "water_clean",
-                            700
+                            175
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            140
+                            35
                         ],
                         [
                             "material_quicklime",
-                            140
+                            35
                         ],
                         [
                             "concrete",
-                            7
+                            1
                         ]
                     ],
                     [
                         [
                             "rope_makeshift_6",
-                            2
+                            1
                         ],
                         [
                             "rope_6",
-                            2
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            20
+                            5
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            120
+                            30
                         ],
                         [
                             "pine_bough",
-                            120
+                            30
                         ]
                     ]
                 ]
@@ -2105,67 +2105,67 @@
                     [
                         [
                             "pointy_stick",
-                            6
+                            1
                         ],
                         [
                             "spear_wood",
-                            6
+                            1
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            1320
+                            330
                         ]
                     ],
                     [
                         [
                             "water",
-                            300
+                            75
                         ],
                         [
                             "water_clean",
-                            300
+                            75
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            60
+                            15
                         ],
                         [
                             "material_quicklime",
-                            60
+                            15
                         ],
                         [
                             "concrete",
-                            3
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            30
+                            7
                         ]
                     ],
                     [
                         [
                             "stick",
-                            60
+                            15
                         ],
                         [
                             "2x4",
-                            120
+                            30
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            180
+                            45
                         ],
                         [
                             "pine_bough",
-                            180
+                            45
                         ]
                     ]
                 ]
@@ -2251,79 +2251,79 @@
                     [
                         [
                             "2x4",
-                            116
+                            29
                         ]
                     ],
                     [
                         [
                             "nail",
-                            48
+                            12
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            12
+                            3
                         ],
                         [
                             "spear_wood",
-                            12
+                            3
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            1840
+                            460
                         ]
                     ],
                     [
                         [
                             "water",
-                            600
+                            150
                         ],
                         [
                             "water_clean",
-                            600
+                            150
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            120
+                            30
                         ],
                         [
                             "material_quicklime",
-                            120
+                            30
                         ],
                         [
                             "concrete",
-                            6
+                            1
                         ]
                     ],
                     [
                         [
                             "rope_makeshift_6",
-                            4
+                            1
                         ],
                         [
                             "rope_6",
-                            4
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            20
+                            5
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            120
+                            30
                         ],
                         [
                             "pine_bough",
-                            120
+                            30
                         ]
                     ]
                 ]
@@ -2413,79 +2413,79 @@
                     [
                         [
                             "2x4",
-                            138
+                            34
                         ]
                     ],
                     [
                         [
                             "nail",
-                            24
+                            6
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            4
+                            1
                         ],
                         [
                             "spear_wood",
-                            4
+                            1
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            1080
+                            270
                         ]
                     ],
                     [
                         [
                             "water",
-                            200
+                            50
                         ],
                         [
                             "water_clean",
-                            200
+                            50
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            40
+                            10
                         ],
                         [
                             "material_quicklime",
-                            40
+                            10
                         ],
                         [
                             "concrete",
-                            2
+                            1
                         ]
                     ],
                     [
                         [
                             "rope_makeshift_6",
-                            2
+                            1
                         ],
                         [
                             "rope_6",
-                            2
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            30
+                            7
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            180
+                            45
                         ],
                         [
                             "pine_bough",
-                            180
+                            45
                         ]
                     ]
                 ]
@@ -2588,79 +2588,79 @@
                     [
                         [
                             "2x4",
-                            258
+                            64
                         ]
                     ],
                     [
                         [
                             "nail",
-                            24
+                            6
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            10
+                            2
                         ],
                         [
                             "spear_wood",
-                            10
+                            2
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            2400
+                            600
                         ]
                     ],
                     [
                         [
                             "water",
-                            500
+                            125
                         ],
                         [
                             "water_clean",
-                            500
+                            125
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            100
+                            25
                         ],
                         [
                             "material_quicklime",
-                            100
+                            25
                         ],
                         [
                             "concrete",
-                            5
+                            1
                         ]
                     ],
                     [
                         [
                             "rope_makeshift_6",
-                            2
+                            1
                         ],
                         [
                             "rope_6",
-                            2
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            60
+                            15
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            360
+                            90
                         ],
                         [
                             "pine_bough",
-                            360
+                            90
                         ]
                     ]
                 ]
@@ -2746,79 +2746,79 @@
                     [
                         [
                             "2x4",
-                            116
+                            29
                         ]
                     ],
                     [
                         [
                             "nail",
-                            48
+                            12
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            12
+                            3
                         ],
                         [
                             "spear_wood",
-                            12
+                            3
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            1840
+                            460
                         ]
                     ],
                     [
                         [
                             "water",
-                            600
+                            150
                         ],
                         [
                             "water_clean",
-                            600
+                            150
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            120
+                            30
                         ],
                         [
                             "material_quicklime",
-                            120
+                            30
                         ],
                         [
                             "concrete",
-                            6
+                            1
                         ]
                     ],
                     [
                         [
                             "rope_makeshift_6",
-                            4
+                            1
                         ],
                         [
                             "rope_6",
-                            4
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            20
+                            5
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            120
+                            30
                         ],
                         [
                             "pine_bough",
-                            120
+                            30
                         ]
                     ]
                 ]
@@ -2909,79 +2909,79 @@
                     [
                         [
                             "2x4",
-                            138
+                            34
                         ]
                     ],
                     [
                         [
                             "nail",
-                            24
+                            6
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            4
+                            1
                         ],
                         [
                             "spear_wood",
-                            4
+                            1
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            1080
+                            270
                         ]
                     ],
                     [
                         [
                             "water",
-                            200
+                            50
                         ],
                         [
                             "water_clean",
-                            200
+                            50
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            40
+                            10
                         ],
                         [
                             "material_quicklime",
-                            40
+                            10
                         ],
                         [
                             "concrete",
-                            2
+                            1
                         ]
                     ],
                     [
                         [
                             "rope_makeshift_6",
-                            2
+                            1
                         ],
                         [
                             "rope_6",
-                            2
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            30
+                            7
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            180
+                            45
                         ],
                         [
                             "pine_bough",
-                            180
+                            45
                         ]
                     ]
                 ]
@@ -3067,79 +3067,79 @@
                     [
                         [
                             "2x4",
-                            98
-                        ]
-                    ],
-                    [
-                        [
-                            "nail",
                             24
                         ]
                     ],
                     [
                         [
+                            "nail",
+                            6
+                        ]
+                    ],
+                    [
+                        [
                             "pointy_stick",
-                            14
+                            3
                         ],
                         [
                             "spear_wood",
-                            14
+                            3
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            2080
+                            520
                         ]
                     ],
                     [
                         [
                             "water",
-                            700
+                            175
                         ],
                         [
                             "water_clean",
-                            700
+                            175
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            140
+                            35
                         ],
                         [
                             "material_quicklime",
-                            140
+                            35
                         ],
                         [
                             "concrete",
-                            7
+                            1
                         ]
                     ],
                     [
                         [
                             "rope_makeshift_6",
-                            2
+                            1
                         ],
                         [
                             "rope_6",
-                            2
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            20
+                            5
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            120
+                            30
                         ],
                         [
                             "pine_bough",
-                            120
+                            30
                         ]
                     ]
                 ]
@@ -3224,67 +3224,67 @@
                     [
                         [
                             "pointy_stick",
-                            6
+                            1
                         ],
                         [
                             "spear_wood",
-                            6
+                            1
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            1320
+                            330
                         ]
                     ],
                     [
                         [
                             "water",
-                            300
+                            75
                         ],
                         [
                             "water_clean",
-                            300
+                            75
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            60
+                            15
                         ],
                         [
                             "material_quicklime",
-                            60
+                            15
                         ],
                         [
                             "concrete",
-                            3
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            30
+                            7
                         ]
                     ],
                     [
                         [
                             "stick",
-                            60
+                            15
                         ],
                         [
                             "2x4",
-                            120
+                            30
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            180
+                            45
                         ],
                         [
                             "pine_bough",
-                            180
+                            45
                         ]
                     ]
                 ]
@@ -3387,79 +3387,79 @@
                     [
                         [
                             "2x4",
-                            258
+                            64
                         ]
                     ],
                     [
                         [
                             "nail",
-                            24
+                            6
                         ]
                     ],
                     [
                         [
                             "pointy_stick",
-                            10
+                            2
                         ],
                         [
                             "spear_wood",
-                            10
+                            2
                         ]
                     ],
                     [
                         [
                             "material_soil",
-                            2400
+                            600
                         ]
                     ],
                     [
                         [
                             "water",
-                            500
+                            125
                         ],
                         [
                             "water_clean",
-                            500
+                            125
                         ]
                     ],
                     [
                         [
                             "material_sand",
-                            100
+                            25
                         ],
                         [
                             "material_quicklime",
-                            100
+                            25
                         ],
                         [
                             "concrete",
-                            5
+                            1
                         ]
                     ],
                     [
                         [
                             "rope_makeshift_6",
-                            2
+                            1
                         ],
                         [
                             "rope_6",
-                            2
+                            1
                         ]
                     ],
                     [
                         [
                             "log",
-                            60
+                            15
                         ]
                     ],
                     [
                         [
                             "birchbark",
-                            360
+                            90
                         ],
                         [
                             "pine_bough",
-                            360
+                            90
                         ]
                     ]
                 ]
