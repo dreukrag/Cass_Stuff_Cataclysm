@@ -15,7 +15,7 @@ for r, d, f in os.walk("."):
         if file.endswith(".json"):
             x.append(os.path.join(r, file))
 
-print(x)
+# print(x)
 
 for file in x:
     with open(file, "r+") as fr:
@@ -28,12 +28,22 @@ for file in x:
             elif "blueprint_needs" in recipe:
                 if "time" in recipe["blueprint_needs"]:
                     # print(recipe["blueprint_needs"]["time"])
-                    recipe["blueprint_needs"]["time"] = "1 s"
+                    # recipe["blueprint_needs"]["time"] = "1 s"
                     if "inline" in recipe["blueprint_needs"]:
+                        print("has inline")
                         if "components" in recipe["blueprint_needs"]["inline"]:
+                            print("has components")
                             for cmpList in recipe["blueprint_needs"]["inline"]["components"]:
-                                print(cmpList)
+                                for itm in cmpList:
+                                    print(itm)
+                                    newval = itm[1]/4
+                                    if newval >= 1:
+                                        itm[1] = int(newval)
+                                    else:
+                                        itm[1] = 1
+
         fr.seek(0)
-        print(data)
+        # print(data)
         json.dump(data, fr, indent=4)
-    break
+        fr.truncate()
+    # break

@@ -124,6 +124,7 @@
     "skill_used": "fabrication",
     "difficulty": 1,
     "time": "30 m",
+    "batch_time_factors": [ 25, 2 ],
     "autolearn": true,
     "using": [ [ "blacksmithing_standard", 1 ], [ "steel_tiny", 1 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
