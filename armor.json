@@ -129,7 +129,7 @@
         "use_action": {
             "type": "holster"
         },
-        "flags": ["VARSIZE", "STURDY"]
+        "flags": ["VARSIZE", "STURDY", "OUTER"]
     },
     {
         "result": "utopian_rig",
@@ -246,7 +246,7 @@
         "encumbrance": 8,
         "warmth": 10,
         "material_thickness": 3,
-        "flags": ["VARSIZE", "STURDY", "OUTER"]
+        "flags": ["VARSIZE", "STURDY"]
     },
     {
         "result": "armor_utopia_l",
@@ -310,7 +310,7 @@
         "encumbrance": 6,
         "warmth": 15,
         "material_thickness": 3,
-        "flags": ["VARSIZE", "STURDY", "OUTER"]
+        "flags": ["VARSIZE", "STURDY"]
     },
     {
         "result": "armor_utopia",

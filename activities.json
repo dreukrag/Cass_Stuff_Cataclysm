@@ -14,5 +14,14 @@
     "rooted": true,
     "based_on": "speed",
     "suspendable": false
+  },
+  {
+    "id": "ACT_CRAFT",
+    "type": "activity_type",
+    "activity_level": "LIGHT_EXERCISE",
+    "verb": "crafting",
+    "based_on": "neither",
+    "refuel_fires": true,
+    "auto_needs": true
   }
 ]
