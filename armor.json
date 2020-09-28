@@ -513,5 +513,212 @@
                 ["nomex", 32]
             ]
         ]
+    },
+
+    {
+        "id": "survivor_hev_1",
+        "type": "ARMOR",
+        "category": "armor",
+        "name": {
+            "str": "survivor hazardous environment suit MkI"
+        },
+        "description": "A suit meant to protect the wearer from hazardous environment, covers the whole body but needs a mask to provide full protection.",
+        "weight": "4250 g",
+        "volume": "11500 ml",
+        "price": 200000,
+        "price_postapoc": 50000,
+        "to_hit": -3,
+        "bashing": 6,
+        "material": ["kevlar_layered", "nomex"],
+        "symbol": "[",
+        "looks_like": "fsurvivor_suit",
+        "color": "light_gray",
+        "covers": ["LEGS", "TORSO", "ARMS", "FEET", "HANDS", "HEAD"],
+        "coverage": 100,
+        "encumbrance": 25,
+        "warmth": 25,
+        "material_thickness": 3,
+        "environmental_protection": 10,
+        "flags": ["VARSIZE", "WATERPROOF", "POCKETS", "RAINPROOF", "STURDY", "RAD_RESIST", "ONLY_ONE"]
+    },
+    {
+        "id": "survivor_hev_2",
+        "type": "ARMOR",
+        "category": "armor",
+        "name": {
+            "str": "survivor hazardous environment suit MkII"
+        },
+        "description": "An improved HEV suit with armored plates for protection and electrical protection.",
+        "weight": "6000 g",
+        "volume": "11500 ml",
+        "price": 200000,
+        "price_postapoc": 150000,
+        "to_hit": -3,
+        "bashing": 6,
+        "material": ["kevlar_layered", "nomex", "nomex", "hardsteel"],
+        "symbol": "[",
+        "looks_like": "fsurvivor_suit",
+        "color": "light_gray",
+        "covers": ["LEGS", "TORSO", "ARMS", "FEET", "HANDS", "HEAD"],
+        "coverage": 100,
+        "encumbrance": 25,
+        "warmth": 25,
+        "material_thickness": 3,
+        "environmental_protection": 10,
+        "flags": ["VARSIZE", "WATERPROOF", "POCKETS", "RAINPROOF", "STURDY", "ELECTRIC_IMMUNE", "RAD_RESIST", "ONLY_ONE"]
+    },
+    {
+        "id": "survivor_hev_3",
+        "type": "ARMOR",
+        "category": "armor",
+        "name": {
+            "str": "survivor hazardous environment suit MkIII"
+        },
+        "description": "Further improvements on the MKII led to this suit, it includes a collar mounted heat exchange unit connected to a web of internal tubings for climate control.",
+        "weight": "6500 g",
+        "volume": "11500 ml",
+        "price": 200000,
+        "price_postapoc": 500000,
+        "to_hit": -3,
+        "bashing": 6,
+        "material": ["kevlar_layered", "nomex", "nomex", "hardsteel"],
+        "symbol": "[",
+        "looks_like": "fsurvivor_suit",
+        "color": "light_gray",
+        "covers": ["LEGS", "TORSO", "ARMS", "FEET", "HANDS", "HEAD"],
+        "coverage": 100,
+        "encumbrance": 25,
+        "warmth": 25,
+        "material_thickness": 3,
+        "environmental_protection": 15,
+        "flags": ["VARSIZE", "WATERPROOF", "POCKETS", "RAINPROOF", "STURDY", "ELECTRIC_IMMUNE", "RAD_RESIST", "ONLY_ONE", "CLIMATE_CONTROL"]
+    },
+    {
+        "result": "survivor_hev_1",
+        "type": "recipe",
+        "category": "CC_ARMOR",
+        "subcategory": "CSC_ARMOR_SUIT",
+        "skill_used": "tailor",
+        "difficulty": 8,
+        "skills_required": ["fabrication", 7],
+        "time": "5 h 20 m",
+        "autolearn": true,
+        "using": [
+            ["sewing_standard", 200]
+        ],
+        "tools": [
+            [
+                ["welder", 28],
+                ["welder_crude", 42],
+                ["soldering_iron", 42],
+                ["toolset", 42]
+            ]
+        ],
+        "components": [
+            [
+                ["plastic_chunk", 12]
+            ],
+            [
+                ["nomex_suit", 1],
+                ["entry_suit", 1],
+                ["nomex", 20]
+            ],
+            [
+                ["coat_rain", 1],
+                ["jacket_windbreaker", 1],
+                ["jacket_evac", 1],
+                ["coat_gut", 1]
+            ],
+            [
+                ["tacvest", 1],
+                ["legrig", 1],
+                ["vest", 1],
+                ["tool_belt", 1],
+                ["ragpouch", 6],
+                ["leather_pouch", 4],
+                ["dump_pouch", 1],
+                ["purse", 2],
+                ["fanny", 2]
+            ],
+            [
+                ["duct_tape", 200]
+            ],
+            [
+                ["kevlar", 1],
+                ["ballistic_vest_empty", 1],
+                ["swat_armor", 1],
+                ["sheet_kevlar_layered", 24]
+            ]
+        ]
+    },
+    {
+        "result": "survivor_hev_2",
+        "type": "recipe",
+        "category": "CC_ARMOR",
+        "subcategory": "CSC_ARMOR_SUIT",
+        "skill_used": "tailor",
+        "difficulty": 8,
+        "skills_required": ["fabrication", 7],
+        "time": "5 h 20 m",
+        "autolearn": true,
+        "using": [
+            ["sewing_standard", 200]
+        ],
+        "tools": [
+            [
+                ["welder", 28],
+                ["welder_crude", 42],
+                ["soldering_iron", 42],
+                ["toolset", 42]
+            ]
+        ],
+        "components": [
+            [
+                ["scrap", 24],
+                ["steel_chunk", 6]
+            ],
+            [
+                ["duct_tape", 100]
+            ],
+            [
+                ["survivor_hev_1", 1]
+            ]
+        ]
+    },
+    {
+        "result": "survivor_hev_3",
+        "type": "recipe",
+        "category": "CC_ARMOR",
+        "subcategory": "CSC_ARMOR_SUIT",
+        "skill_used": "tailor",
+        "difficulty": 8,
+        "skills_required": ["fabrication", 7],
+        "time": "5 h 20 m",
+        "autolearn": true,
+        "using": [
+            ["sewing_standard", 200]
+        ],
+        "tools": [
+            [
+                ["welder", 28],
+                ["welder_crude", 42],
+                ["soldering_iron", 42],
+                ["toolset", 42]
+            ]
+        ],
+        "components": [
+            [
+                ["UPS_off", 1]
+            ],
+            [
+                ["plastic_chunk", 12]
+            ],
+            [
+                ["duct_tape", 100]
+            ],
+            [
+                ["survivor_hev_2", 1]
+            ]
+        ]
     }
 ]
