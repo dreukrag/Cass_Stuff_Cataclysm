@@ -5,7 +5,7 @@
     "name": {
       "str": "utopian rig"
     },
-    "description": "A special storage rig in the Utopian colors. Designed for maximum storage, it features a chestrig, several pouches on both arms and legs",
+    "description": "A special storage rig in the Utopian colors. Designed for maximum storage, it features a chestrig, and pouches on both arms and legs",
     "weight": "810 g",
     "volume": "1500 ml",
     "price": 8900,
@@ -16,114 +16,53 @@
     "looks_like": "chestrig",
     "color": "red",
     "covers": ["leg_l", "leg_r", "arm_l", "arm_r", "torso"],
-    "coverage": 70,
-    "encumbrance": 6,
-    "max_encumbrance": 16,
+    "coverage": 30,
+    "encumbrance": 5,
+    "max_encumbrance": 10,
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
-        "max_contains_volume": "1500 ml",
-        "max_contains_weight": "20 kg",
+        "max_contains_volume": "2500 ml",
+        "max_contains_weight": "10 kg",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "2500 ml",
+        "max_contains_weight": "10 kg",
         "moves": 80
       },
       {
         "pocket_type": "CONTAINER",
         "max_contains_volume": "1500 ml",
-        "max_contains_weight": "20 kg",
+        "max_contains_weight": "4 kg",
         "moves": 80
       },
       {
         "pocket_type": "CONTAINER",
         "max_contains_volume": "1500 ml",
-        "max_contains_weight": "20 kg",
-        "moves": 80
-      },
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "1500 ml",
-        "max_contains_weight": "20 kg",
-        "moves": 80
-      },
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "1500 ml",
-        "max_contains_weight": "20 kg",
-        "moves": 80
-      },
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "1500 ml",
-        "max_contains_weight": "20 kg",
+        "max_contains_weight": "4 kg",
         "moves": 80
       },
       {
         "pocket_type": "CONTAINER",
         "max_contains_volume": "750 ml",
-        "max_contains_weight": "10 kg",
+        "max_contains_weight": "2 kg",
         "moves": 100
       },
       {
         "pocket_type": "CONTAINER",
         "max_contains_volume": "750 ml",
-        "max_contains_weight": "10 kg",
+        "max_contains_weight": "2 kg",
         "moves": 100
       },
       {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "750 ml",
-        "max_contains_weight": "10 kg",
-        "moves": 100
-      },
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "750 ml",
-        "max_contains_weight": "10 kg",
-        "moves": 100
-      },
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "750 ml",
-        "max_contains_weight": "10 kg",
-        "moves": 100
-      },
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "750 ml",
-        "max_contains_weight": "10 kg",
-        "moves": 100
-      },
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "500 ml",
-        "max_contains_weight": "10 kg",
-        "moves": 100
-      },
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "500 ml",
-        "max_contains_weight": "10 kg",
-        "moves": 100
-      },
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "500 ml",
-        "max_contains_weight": "10 kg",
-        "moves": 100
-      },
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "500 ml",
-        "max_contains_weight": "10 kg",
-        "moves": 100
-      },
-      {
-        "pocket_type": "CONTAINER",
-        "holster": true,
-        "min_item_volume": "1250 ml",
-        "max_contains_volume": "8 L",
-        "max_contains_weight": "8200 g",
-        "max_item_length": "120 cm",
-        "moves": 50
+        "max_contains_volume": "2 L",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "90 cm",
+        "moves": 50,
+        "flag_restriction": [ "BELT_CLIP", "SHEATH_KNIFE", "SHEATH_SWORD" ],
+        "holster": true
       }
     ],
     "warmth": 5,
@@ -131,7 +70,7 @@
     "use_action": {
       "type": "holster"
     },
-    "flags": ["VARSIZE", "STURDY", "OUTER"]
+    "flags": ["VARSIZE", "STURDY", "BELTED"]
   },
   {
     "result": "utopian_rig",
@@ -140,16 +79,16 @@
     "subcategory": "CSC_ARMOR_STORAGE",
     "skill_used": "tailor",
     "difficulty": 3,
-    "time": "1 h",
+    "time": "4 h",
     "autolearn": true,
+    "reversible": true,
     "qualities": [
       {
         "id": "CUT",
         "level": 1
       }
     ],
-    "using": [["sewing_standard", 68]],
-    "components": [[["rag", 21]]]
+    "using": [ [ "tailoring_cotton_patchwork", 4 ] ]
   },
   {
     "id": "utopian_jumpsuit",
