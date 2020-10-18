@@ -12,7 +12,7 @@
     "autolearn": true,
     "tools": [[["loom_frame", -1]], [["shed_stick", -1]]],
     "qualities": [{ "id": "CUT", "level": 1 }],
-    "components": [[["thread", 5]]]
+    "components": [[["thread", 50]]]
   },
   {
     "type": "recipe",
