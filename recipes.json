@@ -1,5 +1,33 @@
 [
   {
+    "result": "mask_filter",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 6,
+    "skills_required": ["fabrication", 1],
+    "time": "15 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [
+        ["bag_plastic", 2],
+        ["bottle_plastic", 1],
+        ["bottle_plastic_small", 2]
+      ],
+      [
+        ["rag", 2],
+        ["bandana", 2],
+        ["paper", 10]
+      ],
+      [["charcoal", 10]]
+    ],
+    "//": "Airtight takes some skills.",
+    "proficiencies": [{ "proficiency": "prof_closures_waterproofing" }]
+  },
+  {
     "result": "sheet_cotton",
     "type": "recipe",
     "activity_level": "MODERATE_EXERCISE",

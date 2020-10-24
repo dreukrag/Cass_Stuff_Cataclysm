@@ -61,7 +61,6 @@
         "max_contains_weight": "6 kg",
         "max_item_length": "90 cm",
         "moves": 50,
-        "flag_restriction": [ "BELT_CLIP", "SHEATH_KNIFE", "SHEATH_SWORD" ],
         "holster": true
       }
     ],
@@ -88,7 +87,7 @@
         "level": 1
       }
     ],
-    "using": [ [ "tailoring_cotton_patchwork", 4 ] ]
+    "using": [["tailoring_cotton_patchwork", 4]]
   },
   {
     "id": "utopian_jumpsuit",
@@ -121,33 +120,6 @@
     ],
     "coverage": 100,
     "encumbrance": 6,
-    "max_encumbrance": 9,
-    "pocket_data": [
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "1 L",
-        "max_contains_weight": "20 kg",
-        "moves": 80
-      },
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "1 L",
-        "max_contains_weight": "20 kg",
-        "moves": 80
-      },
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "500 ml",
-        "max_contains_weight": "10 kg",
-        "moves": 100
-      },
-      {
-        "pocket_type": "CONTAINER",
-        "max_contains_volume": "500 ml",
-        "max_contains_weight": "10 kg",
-        "moves": 100
-      }
-    ],
     "warmth": 30,
     "material_thickness": 2,
     "flags": ["VARSIZE", "POCKETS", "SKINTIGHT"]
@@ -177,33 +149,29 @@
     "name": {
       "str": "utopian light armor"
     },
-    "description": "A white suit of Utopian light armor. It protects only the most important bits of the body. It is very lightweight and made out of easy to source materials.",
+    "description": "A combined suit, gloves and boots of Utopian light armor. It protects the body. It is very lightweight and made out of easy to source materials.",
     "weight": "2500 g",
     "volume": "5500 ml",
     "price": 4000,
     "price_postapoc": 4000,
     "bashing": 8,
-    "material": ["plastic", "wood", "cotton"],
+    "material": ["plastic"],
     "symbol": "[",
     "looks_like": "armor_lightplate",
     "color": "white",
-    "covers": [
-      "leg_l",
-      "leg_r",
-      "arm_l",
-      "arm_r",
-      "torso",
-      "foot_l",
-      "foot_r",
-      "hand_l",
-      "hand_r",
-      "head",
-      "mouth"
+    "armor_portion_data": [
+      { "covers": ["torso"], "coverage": 85, "encumbrance": 15 },
+      { "covers": ["arm_l"], "coverage": 85, "encumbrance": 7 },
+      { "covers": ["arm_r"], "coverage": 85, "encumbrance": 7 },
+      { "covers": ["leg_l"], "coverage": 85, "encumbrance": 7 },
+      { "covers": ["leg_r"], "coverage": 85, "encumbrance": 7 },
+      { "covers": ["foot_l"], "coverage": 100, "encumbrance": 7 },
+      { "covers": ["foot_r"], "coverage": 100, "encumbrance": 7 },
+      { "covers": ["hand_l"], "coverage": 85, "encumbrance": 7 },
+      { "covers": ["hand_r"], "coverage": 85, "encumbrance": 7 }
     ],
-    "coverage": 75,
-    "encumbrance": 8,
-    "warmth": 10,
-    "material_thickness": 3,
+    "warmth": 20,
+    "material_thickness": 4,
     "flags": ["VARSIZE", "STURDY"]
   },
   {
@@ -224,13 +192,67 @@
     ],
     "tools": [[["surface_heat", 5, "LIST"]], [["mold_plastic", -1]]],
 
-    "components": [
-      [["cordage", 6, "LIST"]],
-      [["rag", 42]],
-      [["2x4", 8]],
-      [["plastic_chunk", 24]]
-    ]
+    "components": [[["cordage", 6, "LIST"]], [["plastic_chunk", 24]]]
   },
+
+  {
+    "id": "helmet_utopia_l",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": {
+      "str": "utopian light helmet"
+    },
+    "description": "A combined Utopian light helmet. It protects the whoel head. It is very lightweight and made out of easy to source materials.",
+    "weight": "750 g",
+    "volume": "1500 ml",
+    "price": 4000,
+    "price_postapoc": 4000,
+    "bashing": 8,
+    "material": ["plastic"],
+    "symbol": "[",
+    "looks_like": "armor_lightplate",
+    "color": "white",
+    "armor_portion_data": [
+      { "covers": ["head"], "coverage": 100, "encumbrance": 30 },
+      { "covers": ["mouth"], "coverage": 100, "encumbrance": 10 },
+      { "covers": ["eyes"], "coverage": 100, "encumbrance": 5 }
+    ],
+    "warmth": 10,
+    "material_thickness": 5,
+    "environmental_protection": 1,
+    "environmental_protection_with_filter": 7,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": { "gasfilter_s": 100 }
+      }
+    ],
+    "ammo": "gasfilter_s",
+    "use_action": ["GASMASK"],
+    "flags": ["VARSIZE", "STURDY"]
+  },
+  {
+    "result": "helmet_utopia_l",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "time": "4 h",
+    "autolearn": true,
+    "using": [["sewing_standard", 68]],
+    "qualities": [
+      {
+        "id": "CUT",
+        "level": 1
+      }
+    ],
+    "tools": [[["surface_heat", 5, "LIST"]], [["mold_plastic", -1]]],
+
+    "components": [[["mask_filter", 1]], [["plastic_chunk", 24]]]
+  },
+
   {
     "id": "armor_utopia",
     "type": "ARMOR",
@@ -244,28 +266,23 @@
     "price": 8000,
     "price_postapoc": 8000,
     "bashing": 12,
-    "material": ["iron", "wood"],
+    "material": ["iron"],
     "symbol": "[",
     "looks_like": "armor_lightplate",
     "color": "white",
-    "covers": [
-      "leg_l",
-      "leg_r",
-      "arm_l",
-      "arm_r",
-      "torso",
-      "foot_l",
-      "foot_r",
-      "hand_l",
-      "hand_r",
-      "head",
-      "mouth",
-      "eyes"
+    "armor_portion_data": [
+      { "covers": ["torso"], "coverage": 85, "encumbrance": 15 },
+      { "covers": ["arm_l"], "coverage": 85, "encumbrance": 7 },
+      { "covers": ["arm_r"], "coverage": 85, "encumbrance": 7 },
+      { "covers": ["leg_l"], "coverage": 85, "encumbrance": 7 },
+      { "covers": ["leg_r"], "coverage": 85, "encumbrance": 7 },
+      { "covers": ["foot_l"], "coverage": 100, "encumbrance": 7 },
+      { "covers": ["foot_r"], "coverage": 100, "encumbrance": 7 },
+      { "covers": ["hand_l"], "coverage": 85, "encumbrance": 7 },
+      { "covers": ["hand_r"], "coverage": 85, "encumbrance": 7 }
     ],
-    "coverage": 95,
-    "encumbrance": 6,
-    "warmth": 15,
-    "material_thickness": 3,
+    "warmth": 5,
+    "material_thickness": 4,
     "flags": ["VARSIZE", "STURDY"]
   },
   {
@@ -296,6 +313,69 @@
       ]
     ]
   },
+
+  {
+    "id": "helmet_utopia_m",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": {
+      "str": "utopian medium helmet"
+    },
+    "description": "A combined Utopian medium helmet. It protects the whole head. It is made out of easy to source materials.",
+    "weight": "2750 g",
+    "volume": "1500 ml",
+    "price": 8000,
+    "price_postapoc": 8000,
+    "bashing": 8,
+    "material": ["plastic", "iron"],
+    "symbol": "[",
+    "looks_like": "armor_lightplate",
+    "color": "white",
+    "armor_portion_data": [
+      { "covers": ["head"], "coverage": 100, "encumbrance": 30 },
+      { "covers": ["mouth"], "coverage": 100, "encumbrance": 10 },
+      { "covers": ["eyes"], "coverage": 100, "encumbrance": 5 }
+    ],
+    "warmth": 10,
+    "material_thickness": 5,
+    "environmental_protection": 1,
+    "environmental_protection_with_filter": 7,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": { "gasfilter_s": 100 }
+      }
+    ],
+    "ammo": "gasfilter_s",
+    "use_action": ["GASMASK"],
+    "flags": ["VARSIZE", "STURDY"]
+  },
+  {
+    "result": "helmet_utopia_m",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "time": "4 h",
+    "autolearn": true,
+    "using": [["sewing_standard", 68]],
+    "qualities": [
+      {
+        "id": "CUT",
+        "level": 1
+      }
+    ],
+    "tools": [[["surface_heat", 5, "LIST"]], [["mold_plastic", -1]]],
+
+    "components": [
+      [["mask_filter", 1]],
+      [["plastic_chunk", 24]],
+      [["iron", 24]]
+    ]
+  },
+
   {
     "id": "survivor_fire_vest",
     "type": "ARMOR",
