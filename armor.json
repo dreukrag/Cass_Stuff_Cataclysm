@@ -220,15 +220,15 @@
     "warmth": 10,
     "material_thickness": 5,
     "environmental_protection": 1,
-    "environmental_protection_with_filter": 7,
+    "environmental_protection_with_filter": 10,
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE",
         "rigid": true,
-        "ammo_restriction": { "gasfilter_s": 100 }
+        "ammo_restriction": { "gasfilter_m": 100 }
       }
     ],
-    "ammo": "gasfilter_s",
+    "ammo": "gasfilter_m",
     "use_action": ["GASMASK"],
     "flags": ["VARSIZE", "STURDY"]
   },
@@ -333,21 +333,21 @@
     "color": "white",
     "armor_portion_data": [
       { "covers": ["head"], "coverage": 100, "encumbrance": 30 },
-      { "covers": ["mouth"], "coverage": 100, "encumbrance": 10 },
-      { "covers": ["eyes"], "coverage": 100, "encumbrance": 5 }
+      { "covers": ["mouth"], "coverage": 100, "encumbrance": 15 },
+      { "covers": ["eyes"], "coverage": 100, "encumbrance": 10 }
     ],
     "warmth": 10,
     "material_thickness": 5,
     "environmental_protection": 1,
-    "environmental_protection_with_filter": 7,
+    "environmental_protection_with_filter": 16,
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE",
         "rigid": true,
-        "ammo_restriction": { "gasfilter_s": 100 }
+        "ammo_restriction": { "gasfilter_m": 100 }
       }
     ],
-    "ammo": "gasfilter_s",
+    "ammo": "gasfilter_m",
     "use_action": ["GASMASK"],
     "flags": ["VARSIZE", "STURDY"]
   },
