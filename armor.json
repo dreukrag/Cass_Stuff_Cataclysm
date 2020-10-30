@@ -16,7 +16,7 @@
     "looks_like": "chestrig",
     "color": "red",
     "covers": ["leg_l", "leg_r", "arm_l", "arm_r", "torso"],
-    "coverage": 30,
+    "coverage": 15,
     "encumbrance": 5,
     "max_encumbrance": 10,
     "pocket_data": [
@@ -69,7 +69,7 @@
     "use_action": {
       "type": "holster"
     },
-    "flags": ["VARSIZE", "STURDY", "BELTED"]
+    "flags": ["VARSIZE", "STURDY", "WAIST"]
   },
   {
     "result": "utopian_rig",
@@ -90,18 +90,18 @@
     "using": [["tailoring_cotton_patchwork", 4]]
   },
   {
-    "id": "utopian_jumpsuit",
+    "id": "kevlar_jumpsuit",
     "type": "ARMOR",
     "name": {
-      "str": "utopian jumpsuit"
+      "str": "kevlar jumpsuit"
     },
-    "description": "A special jumpsuit in the Utopian colors. Designed as the standard wear for the faction it completely covers the whole body. For seeing there is a mesh screen while the cloth at the mouth can be spread apart for ingesting food. It also features a few pockets.",
+    "description": "A special jumpsuit made out of kevlar and nomex. Tough and resistant yet doesn't encumbers you that much. It completely covers the whole body.",
     "weight": "610 g",
     "volume": "3500 ml",
     "price": 8900,
     "price_postapoc": 50,
     "to_hit": -3,
-    "material": ["cotton"],
+    "material": ["kevlar", "nomex"],
     "symbol": "[",
     "looks_like": "touring_suit",
     "color": "red",
@@ -115,17 +115,16 @@
       "foot_r",
       "hand_l",
       "hand_r",
-      "head",
-      "mouth"
+      "head"
     ],
     "coverage": 100,
-    "encumbrance": 6,
-    "warmth": 30,
+    "encumbrance": 5,
+    "warmth": 25,
     "material_thickness": 2,
-    "flags": ["VARSIZE", "POCKETS", "SKINTIGHT"]
+    "flags": ["VARSIZE", "STURDY", "SKINTIGHT", "RAINPROOF"]
   },
   {
-    "result": "utopian_jumpsuit",
+    "result": "kevlar_jumpsuit",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_SUIT",
@@ -140,7 +139,12 @@
       }
     ],
     "using": [["sewing_standard", 68]],
-    "components": [[["rag", 21]]]
+    "components": [
+      [
+        ["sheet_kevlar", 21],
+        ["nomex", 21]
+      ]
+    ]
   },
   {
     "id": "armor_utopia_l",
@@ -260,30 +264,30 @@
     "name": {
       "str": "utopian armor"
     },
-    "description": "A white suit of Utopian armor. It protects most of the body. It feature the Utopian logo on its chest.\nIt is lightweight for its class and made out of easy to source materials.",
+    "description": "A white suit of Plate armor. It protects most of the body. It is heavily angled in order to deflect bows. The joints are articulate and it is surprisingly easy to move while wearing it.",
     "weight": "5500 g",
     "volume": "7500 ml",
-    "price": 8000,
-    "price_postapoc": 8000,
+    "price": 80000,
+    "price_postapoc": 80000,
     "bashing": 12,
     "material": ["iron"],
     "symbol": "[",
     "looks_like": "armor_lightplate",
     "color": "white",
     "armor_portion_data": [
-      { "covers": ["torso"], "coverage": 85, "encumbrance": 15 },
-      { "covers": ["arm_l"], "coverage": 85, "encumbrance": 7 },
-      { "covers": ["arm_r"], "coverage": 85, "encumbrance": 7 },
-      { "covers": ["leg_l"], "coverage": 85, "encumbrance": 7 },
-      { "covers": ["leg_r"], "coverage": 85, "encumbrance": 7 },
-      { "covers": ["foot_l"], "coverage": 100, "encumbrance": 7 },
-      { "covers": ["foot_r"], "coverage": 100, "encumbrance": 7 },
-      { "covers": ["hand_l"], "coverage": 85, "encumbrance": 7 },
-      { "covers": ["hand_r"], "coverage": 85, "encumbrance": 7 }
+      { "covers": ["torso"], "coverage": 90, "encumbrance": 20 },
+      { "covers": ["arm_l"], "coverage": 90, "encumbrance": 10 },
+      { "covers": ["arm_r"], "coverage": 90, "encumbrance": 10 },
+      { "covers": ["leg_l"], "coverage": 90, "encumbrance": 10 },
+      { "covers": ["leg_r"], "coverage": 90, "encumbrance": 10 },
+      { "covers": ["foot_l"], "coverage": 90, "encumbrance": 10 },
+      { "covers": ["foot_r"], "coverage": 90, "encumbrance": 10 },
+      { "covers": ["hand_l"], "coverage": 75, "encumbrance": 7 },
+      { "covers": ["hand_r"], "coverage": 75, "encumbrance": 7 }
     ],
-    "warmth": 5,
+    "warmth": 0,
     "material_thickness": 4,
-    "flags": ["VARSIZE", "STURDY"]
+    "flags": ["VARSIZE", "STURDY", "OUTER", "BLOCK_WHILE_WORN"]
   },
   {
     "result": "armor_utopia",
@@ -305,12 +309,8 @@
 
     "components": [
       [["cordage", 6, "LIST"]],
-      [["rag", 24]],
-      [["2x4", 8]],
-      [
-        ["scrap", 24],
-        ["steel_chunk", 6]
-      ]
+      [["rag", 16]],
+      [["steel_chunk", 18]]
     ]
   },
 
@@ -338,8 +338,8 @@
     ],
     "warmth": 10,
     "material_thickness": 5,
-    "environmental_protection": 1,
-    "environmental_protection_with_filter": 16,
+    "environmental_protection": 3,
+    "environmental_protection_with_filter": 15,
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE",
@@ -349,7 +349,14 @@
     ],
     "ammo": "gasfilter_m",
     "use_action": ["GASMASK"],
-    "flags": ["VARSIZE", "STURDY"]
+    "flags": [
+      "VARSIZE",
+      "STURDY",
+      "PSYSHIELD_PARTIAL",
+      "SUN_GLASSES",
+      "WATERPROOF",
+      "WATER_FRIENDLY"
+    ]
   },
   {
     "result": "helmet_utopia_m",
@@ -370,9 +377,9 @@
     "tools": [[["surface_heat", 5, "LIST"]], [["mold_plastic", -1]]],
 
     "components": [
-      [["mask_filter", 1]],
-      [["plastic_chunk", 24]],
-      [["iron", 24]]
+      [["mask_filter", 2]],
+      [["plastic_chunk", 8]],
+      [["steel_chunk", 8]]
     ]
   },
 
