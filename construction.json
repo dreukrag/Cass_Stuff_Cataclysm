@@ -1,0 +1,22 @@
+[
+  {
+    "type": "construction",
+    "id": "constr_clay_kiln_alt",
+    "group": "build_clay_kiln",
+    "category": "FURN",
+    "required_skills": [["fabrication", 4]],
+    "time": "150 m",
+    "qualities": [[{ "id": "HAMMER", "level": 2 }]],
+    "components": [
+      [["rock", 40]],
+      [["mortar_adobe", 12]],
+      [
+        ["water", 12],
+        ["water_clean", 12]
+      ]
+    ],
+    "pre_note": "Can be deconstructed without tools.",
+    "pre_special": "check_empty",
+    "post_terrain": "f_clay_kiln"
+  }
+]
